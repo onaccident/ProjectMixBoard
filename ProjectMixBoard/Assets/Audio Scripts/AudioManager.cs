@@ -28,9 +28,6 @@ public class AudioManager : MonoBehaviour
             return;
         }
         DontDestroyOnLoad(gameObject);
-
-
-
         foreach (RandomContainer c in sounds)
         {
             c.source = gameObject.AddComponent<AudioSource>();
@@ -40,9 +37,6 @@ public class AudioManager : MonoBehaviour
             c.source.outputAudioMixerGroup = c.group;
         }
     }
-
-
-
     public void Play(string name)
     {
         RandomContainer soundContainer = Array.Find(sounds, sound => sound.name == name);
@@ -50,18 +44,11 @@ public class AudioManager : MonoBehaviour
         soundContainer.source.clip = soundContainer.clip[i];
         soundContainer.source.Play();
         Debug.Log("Last sound played: " + soundContainer.clip[i].name);
-
-
-
-
     }
     public void Start()
     {
-
+        instance.Play("Music");
         instance.Play("Ambiance");
-
-
-
     }
 
 

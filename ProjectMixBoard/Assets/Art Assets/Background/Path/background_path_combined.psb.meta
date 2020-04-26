@@ -107,7 +107,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 3113, y: 4}
+    uvTransform: {x: 3121, y: 4}
   - name: front_grass
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -195,7 +195,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 2082, y: -224}
+    uvTransform: {x: 2082, y: 4}
   - name: shadowed_trees_front
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -217,7 +217,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: 623}
+    uvTransform: {x: 4, y: 868}
   - name: fog
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -261,7 +261,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1043, y: 595}
+    uvTransform: {x: 1043, y: 868}
   - name: bg
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -307,72 +307,72 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: 0
     mosaicPosition: {x: 0, y: 0}
   - name: front_tree
-    spriteName: front_tree
+    spriteName: 
     isGroup: 0
     parentIndex: 0
-    spriteID: 4084c1b042ddc404ab3d684069b9de12
+    spriteID: 00000000000000000000000000000000
     layerID: 0
-    mosaicPosition: {x: 3121, y: 4}
+    mosaicPosition: {x: 0, y: 0}
   - name: front_grass
-    spriteName: front_grass
+    spriteName: 
     isGroup: 0
     parentIndex: 0
-    spriteID: 937b1cbf461c4b446815590de10e005d
+    spriteID: 00000000000000000000000000000000
     layerID: 0
-    mosaicPosition: {x: 1043, y: 667}
+    mosaicPosition: {x: 0, y: 0}
   - name: road
-    spriteName: road
+    spriteName: 
     isGroup: 0
     parentIndex: 0
-    spriteID: e47d165ed08bfb54394f734a3bbeb22e
+    spriteID: 00000000000000000000000000000000
     layerID: 0
-    mosaicPosition: {x: 4, y: 1487}
+    mosaicPosition: {x: 0, y: 0}
   - name: back_grass
-    spriteName: back_grass
+    spriteName: 
     isGroup: 0
     parentIndex: 0
-    spriteID: b01b03df39508c843bb8bb66f8bb3e5e
+    spriteID: 00000000000000000000000000000000
     layerID: 0
-    mosaicPosition: {x: 2082, y: 868}
+    mosaicPosition: {x: 0, y: 0}
   - name: visible_trees
-    spriteName: visible_trees
+    spriteName: 
     isGroup: 0
     parentIndex: 0
-    spriteID: 6da8d1e9896a2b6409e968ce385c575e
+    spriteID: 00000000000000000000000000000000
     layerID: 0
-    mosaicPosition: {x: 2082, y: 4}
+    mosaicPosition: {x: 0, y: 0}
   - name: shadowed_trees_front
-    spriteName: shadowed_trees_front
+    spriteName: 
     isGroup: 0
     parentIndex: 0
-    spriteID: 443b8a2e58999194898305c5f5c46f27
+    spriteID: 00000000000000000000000000000000
     layerID: 0
-    mosaicPosition: {x: 4, y: 868}
+    mosaicPosition: {x: 0, y: 0}
   - name: fog
-    spriteName: fog
+    spriteName: 
     isGroup: 0
     parentIndex: 0
-    spriteID: 5d23a94a8abf1d7458b4dafb91234e41
+    spriteID: 00000000000000000000000000000000
     layerID: 0
-    mosaicPosition: {x: 1043, y: 4}
+    mosaicPosition: {x: 0, y: 0}
   - name: shadowed_trees_back
-    spriteName: shadowed_trees_back
+    spriteName: 
     isGroup: 0
     parentIndex: 0
-    spriteID: de360786b0c1c314d9a6bbb58aed6678
+    spriteID: 00000000000000000000000000000000
     layerID: 0
-    mosaicPosition: {x: 1043, y: 868}
+    mosaicPosition: {x: 0, y: 0}
   - name: bg
-    spriteName: bg
+    spriteName: 
     isGroup: 0
     parentIndex: 0
-    spriteID: 21b9485fc11fa494bbca98602256bafa
+    spriteID: 00000000000000000000000000000000
     layerID: 0
-    mosaicPosition: {x: 4, y: 4}
+    mosaicPosition: {x: 0, y: 0}
   characterData:
     bones: []
     parts: []
