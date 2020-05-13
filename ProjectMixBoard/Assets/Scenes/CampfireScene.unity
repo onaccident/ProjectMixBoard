@@ -297,30 +297,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -7395294999195603768, guid: 3cabfda39464e9c4eb9933a31ce33d02,
+    - target: {fileID: 3238304762555941560, guid: 3cabfda39464e9c4eb9933a31ce33d02,
         type: 3}
-      propertyPath: m_Name
-      value: camp_nofire
+      propertyPath: m_LocalPosition.x
+      value: 6.97
       objectReference: {fileID: 0}
-    - target: {fileID: -3726645010145835781, guid: 3cabfda39464e9c4eb9933a31ce33d02,
+    - target: {fileID: 3238304762555941560, guid: 3cabfda39464e9c4eb9933a31ce33d02,
         type: 3}
-      propertyPath: m_Name
-      value: gorn_head
-      objectReference: {fileID: 0}
-    - target: {fileID: -2575203426291644842, guid: 3cabfda39464e9c4eb9933a31ce33d02,
-        type: 3}
-      propertyPath: m_Name
-      value: bodies
+      propertyPath: m_LocalPosition.y
+      value: -0.83
       objectReference: {fileID: 0}
     - target: {fileID: 1675333311449914175, guid: 3cabfda39464e9c4eb9933a31ce33d02,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.004398465
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1675333311449914175, guid: 3cabfda39464e9c4eb9933a31ce33d02,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -11.4
+      value: -6
       objectReference: {fileID: 0}
     - target: {fileID: 1675333311449914175, guid: 3cabfda39464e9c4eb9933a31ce33d02,
         type: 3}
@@ -382,15 +377,20 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.27277
       objectReference: {fileID: 0}
-    - target: {fileID: 3238304762555941560, guid: 3cabfda39464e9c4eb9933a31ce33d02,
+    - target: {fileID: -7395294999195603768, guid: 3cabfda39464e9c4eb9933a31ce33d02,
         type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 6.97
+      propertyPath: m_Name
+      value: camp_nofire
       objectReference: {fileID: 0}
-    - target: {fileID: 3238304762555941560, guid: 3cabfda39464e9c4eb9933a31ce33d02,
+    - target: {fileID: -3726645010145835781, guid: 3cabfda39464e9c4eb9933a31ce33d02,
         type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.83
+      propertyPath: m_Name
+      value: gorn_head
+      objectReference: {fileID: 0}
+    - target: {fileID: -2575203426291644842, guid: 3cabfda39464e9c4eb9933a31ce33d02,
+        type: 3}
+      propertyPath: m_Name
+      value: bodies
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: -2817804874617163178, guid: 3cabfda39464e9c4eb9933a31ce33d02,
@@ -406,6 +406,7 @@ GameObject:
   - component: {fileID: 122711054}
   - component: {fileID: 122711056}
   - component: {fileID: 122711055}
+  - component: {fileID: 122711057}
   m_Layer: 0
   m_Name: fog_3
   m_TagString: Untagged
@@ -492,6 +493,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &122711057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 122711053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab930e37b2f5d642adbd60b81ae8a17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimum: 0
+  maximum: 1
+  duration: 5
+  sprite: {fileID: 122711056}
 --- !u!1 &175110679
 GameObject:
   m_ObjectHideFlags: 0
@@ -533,6 +550,7 @@ GameObject:
   - component: {fileID: 184012858}
   - component: {fileID: 184012860}
   - component: {fileID: 184012859}
+  - component: {fileID: 184012861}
   m_Layer: 0
   m_Name: fog_1
   m_TagString: Untagged
@@ -619,6 +637,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &184012861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 184012857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab930e37b2f5d642adbd60b81ae8a17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimum: 0
+  maximum: 1
+  duration: 5
+  sprite: {fileID: 184012860}
 --- !u!1 &197608642
 GameObject:
   m_ObjectHideFlags: 0
@@ -913,6 +947,7 @@ GameObject:
   m_Component:
   - component: {fileID: 292809344}
   - component: {fileID: 292809345}
+  - component: {fileID: 292809346}
   m_Layer: 0
   m_Name: 7_fog
   m_TagString: Untagged
@@ -983,6 +1018,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &292809346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 292809343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab930e37b2f5d642adbd60b81ae8a17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimum: 0
+  maximum: 1
+  duration: 5
+  sprite: {fileID: 292809345}
 --- !u!1 &324446503
 GameObject:
   m_ObjectHideFlags: 0
@@ -1024,6 +1075,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Sylric
+      objectReference: {fileID: 0}
+    - target: {fileID: -4432573549235633871, guid: 9ffcbae95e6818b4ba0cca58404bacee,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5709061285162705146, guid: 9ffcbae95e6818b4ba0cca58404bacee,
         type: 3}
@@ -1346,6 +1402,7 @@ GameObject:
   - component: {fileID: 330206716}
   - component: {fileID: 330206718}
   - component: {fileID: 330206717}
+  - component: {fileID: 330206719}
   m_Layer: 0
   m_Name: fog_5
   m_TagString: Untagged
@@ -1432,6 +1489,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &330206719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330206715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab930e37b2f5d642adbd60b81ae8a17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimum: 0
+  maximum: 1
+  duration: 5
+  sprite: {fileID: 330206718}
 --- !u!1 &364052560
 GameObject:
   m_ObjectHideFlags: 0
@@ -1570,6 +1643,7 @@ GameObject:
   m_Component:
   - component: {fileID: 368171139}
   - component: {fileID: 368171140}
+  - component: {fileID: 368171141}
   m_Layer: 0
   m_Name: 7_fog
   m_TagString: Untagged
@@ -1640,6 +1714,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &368171141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 368171138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab930e37b2f5d642adbd60b81ae8a17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimum: 0
+  maximum: 1
+  duration: 5
+  sprite: {fileID: 368171140}
 --- !u!1001 &395952695
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1651,6 +1741,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tuck
+      objectReference: {fileID: 0}
+    - target: {fileID: 5359353047792536197, guid: d49cf4449eafbb245b576e23c5bb7661,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -5359199857762994604, guid: d49cf4449eafbb245b576e23c5bb7661,
         type: 3}
@@ -2189,6 +2284,7 @@ GameObject:
   - component: {fileID: 503162331}
   - component: {fileID: 503162333}
   - component: {fileID: 503162332}
+  - component: {fileID: 503162334}
   m_Layer: 0
   m_Name: fog_4
   m_TagString: Untagged
@@ -2275,6 +2371,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &503162334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503162330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab930e37b2f5d642adbd60b81ae8a17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimum: 0
+  maximum: 1
+  duration: 5
+  sprite: {fileID: 503162333}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2435,6 +2547,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Rosaleth
+      objectReference: {fileID: 0}
+    - target: {fileID: 8709180812431009696, guid: 3e2a125dbe289a446b9dfb98881c3386,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6398324084181136309, guid: 3e2a125dbe289a446b9dfb98881c3386,
         type: 3}
@@ -2821,6 +2938,7 @@ GameObject:
   m_Component:
   - component: {fileID: 572935578}
   - component: {fileID: 572935579}
+  - component: {fileID: 572935580}
   m_Layer: 0
   m_Name: 7_fog
   m_TagString: Untagged
@@ -2891,6 +3009,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &572935580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572935577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab930e37b2f5d642adbd60b81ae8a17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimum: 0
+  maximum: 1
+  duration: 5
+  sprite: {fileID: 572935579}
 --- !u!1 &611059356
 GameObject:
   m_ObjectHideFlags: 0
@@ -3886,6 +4020,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1110467516}
   - component: {fileID: 1110467517}
+  - component: {fileID: 1110467518}
   m_Layer: 0
   m_Name: 7_fog
   m_TagString: Untagged
@@ -3956,6 +4091,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1110467518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1110467515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab930e37b2f5d642adbd60b81ae8a17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimum: 0
+  maximum: 1
+  duration: 5
+  sprite: {fileID: 1110467517}
 --- !u!1 &1167765935
 GameObject:
   m_ObjectHideFlags: 0
@@ -4161,6 +4312,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: wolf
+      objectReference: {fileID: 0}
+    - target: {fileID: -4653566768031667413, guid: c5962c586f624bd4a99bcae4205b09b6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8382894872715475965, guid: c5962c586f624bd4a99bcae4205b09b6,
         type: 3}
@@ -5167,6 +5323,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1317593574}
   - component: {fileID: 1317593575}
+  - component: {fileID: 1317593576}
   m_Layer: 0
   m_Name: 7_fog
   m_TagString: Untagged
@@ -5237,6 +5394,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1317593576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1317593573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab930e37b2f5d642adbd60b81ae8a17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimum: 0
+  maximum: 1
+  duration: 5
+  sprite: {fileID: 1317593575}
 --- !u!1 &1325521837
 GameObject:
   m_ObjectHideFlags: 0
@@ -5398,6 +5571,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Gorn
+      objectReference: {fileID: 0}
+    - target: {fileID: 5601538037485208635, guid: 16d5274a6886fdc48a26b5ed5e0d825b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6870177767449986252, guid: 16d5274a6886fdc48a26b5ed5e0d825b,
         type: 3}
@@ -6020,6 +6198,7 @@ GameObject:
   - component: {fileID: 1475198685}
   - component: {fileID: 1475198687}
   - component: {fileID: 1475198686}
+  - component: {fileID: 1475198688}
   m_Layer: 0
   m_Name: fog_2
   m_TagString: Untagged
@@ -6106,6 +6285,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1475198688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475198684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab930e37b2f5d642adbd60b81ae8a17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimum: 0
+  maximum: 1
+  duration: 5
+  sprite: {fileID: 1475198687}
 --- !u!1 &1482509417
 GameObject:
   m_ObjectHideFlags: 0
@@ -6861,6 +7056,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1767707329}
   - component: {fileID: 1767707330}
+  - component: {fileID: 1767707331}
   m_Layer: 0
   m_Name: 7_fog
   m_TagString: Untagged
@@ -6931,6 +7127,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1767707331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767707328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab930e37b2f5d642adbd60b81ae8a17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimum: 0
+  maximum: 1
+  duration: 5
+  sprite: {fileID: 1767707330}
 --- !u!1 &1785772101
 GameObject:
   m_ObjectHideFlags: 0
@@ -6942,6 +7154,7 @@ GameObject:
   - component: {fileID: 1785772104}
   - component: {fileID: 1785772103}
   - component: {fileID: 1785772102}
+  - component: {fileID: 1785772105}
   m_Layer: 0
   m_Name: fire_sheet_0
   m_TagString: Untagged
@@ -7026,12 +7239,25 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1785772101}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.14, y: -8.08, z: 0}
+  m_LocalPosition: {x: 1.68, y: -2.64, z: 0}
   m_LocalScale: {x: 0.57172, y: 0.271567, z: 0.57172}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1785772105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785772101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81d6a26946fe41943be400fad6b383ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fire: {fileID: 1785772101}
 --- !u!1 &1786344328
 GameObject:
   m_ObjectHideFlags: 0
@@ -7042,6 +7268,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1786344329}
   - component: {fileID: 1786344330}
+  - component: {fileID: 1786344331}
   m_Layer: 0
   m_Name: 7_fog
   m_TagString: Untagged
@@ -7112,6 +7339,65 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1786344331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786344328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab930e37b2f5d642adbd60b81ae8a17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimum: 0
+  maximum: 1
+  duration: 5
+  sprite: {fileID: 1786344330}
+--- !u!1 &1794931787
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1794931789}
+  - component: {fileID: 1794931788}
+  m_Layer: 0
+  m_Name: SceneManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1794931788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794931787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23c44c4e64e30654c88399b301ce7aa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1794931789
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794931787}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.34446, y: -3.4405944, z: -1.8576951}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1796187027
 GameObject:
   m_ObjectHideFlags: 0
@@ -7634,6 +7920,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1925776435}
   - component: {fileID: 1925776436}
+  - component: {fileID: 1925776437}
   m_Layer: 0
   m_Name: 7_fog
   m_TagString: Untagged
@@ -7704,6 +7991,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1925776437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925776434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab930e37b2f5d642adbd60b81ae8a17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimum: 0
+  maximum: 1
+  duration: 5
+  sprite: {fileID: 1925776436}
 --- !u!1 &1939749815
 GameObject:
   m_ObjectHideFlags: 0
@@ -7808,6 +8111,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1976118337}
   - component: {fileID: 1976118338}
+  - component: {fileID: 1976118339}
   m_Layer: 0
   m_Name: 7_fog
   m_TagString: Untagged
@@ -7878,6 +8182,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1976118339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976118336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab930e37b2f5d642adbd60b81ae8a17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimum: 0
+  maximum: 1
+  duration: 5
+  sprite: {fileID: 1976118338}
 --- !u!1 &1997800516
 GameObject:
   m_ObjectHideFlags: 0
@@ -8273,6 +8593,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2110980146}
   - component: {fileID: 2110980147}
+  - component: {fileID: 2110980148}
   m_Layer: 0
   m_Name: 7_fog
   m_TagString: Untagged
@@ -8343,6 +8664,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2110980148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2110980145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab930e37b2f5d642adbd60b81ae8a17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimum: 0
+  maximum: 1
+  duration: 5
+  sprite: {fileID: 2110980147}
 --- !u!1 &2142089761
 GameObject:
   m_ObjectHideFlags: 0
