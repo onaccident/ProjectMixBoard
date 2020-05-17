@@ -196,7 +196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10d3a78b6bdd8534eb068291ed2710d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
+  cam: {fileID: 1377930135}
   parallaxEffect: 0.5
 --- !u!212 &60711349
 SpriteRenderer:
@@ -526,6 +526,7 @@ GameObject:
   - component: {fileID: 295664573}
   - component: {fileID: 295664575}
   - component: {fileID: 295664574}
+  - component: {fileID: 295664576}
   m_Layer: 0
   m_Name: fog_3
   m_TagString: Untagged
@@ -561,7 +562,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10d3a78b6bdd8534eb068291ed2710d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
+  cam: {fileID: 1377930135}
   parallaxEffect: 0.5
 --- !u!212 &295664575
 SpriteRenderer:
@@ -612,6 +613,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &295664576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295664572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab930e37b2f5d642adbd60b81ae8a17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimum: 0
+  maximum: 1
+  duration: 10
+  faded: 1
+  sprite: {fileID: 295664575}
 --- !u!1 &296980386
 GameObject:
   m_ObjectHideFlags: 0
@@ -792,6 +810,7 @@ GameObject:
   m_Component:
   - component: {fileID: 340682096}
   - component: {fileID: 340682097}
+  - component: {fileID: 340682098}
   m_Layer: 0
   m_Name: 7_fog
   m_TagString: Untagged
@@ -862,6 +881,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &340682098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340682095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab930e37b2f5d642adbd60b81ae8a17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimum: 0
+  maximum: 1
+  duration: 10
+  faded: 1
+  sprite: {fileID: 340682097}
 --- !u!1 &369044918
 GameObject:
   m_ObjectHideFlags: 0
@@ -966,6 +1002,7 @@ GameObject:
   m_Component:
   - component: {fileID: 385535579}
   - component: {fileID: 385535580}
+  - component: {fileID: 385535581}
   m_Layer: 0
   m_Name: 7_fog
   m_TagString: Untagged
@@ -1036,6 +1073,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &385535581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 385535578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab930e37b2f5d642adbd60b81ae8a17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimum: 0
+  maximum: 1
+  duration: 10
+  faded: 1
+  sprite: {fileID: 385535580}
 --- !u!1 &439410241
 GameObject:
   m_ObjectHideFlags: 0
@@ -1156,6 +1210,7 @@ GameObject:
   m_Component:
   - component: {fileID: 470456682}
   - component: {fileID: 470456683}
+  - component: {fileID: 470456684}
   m_Layer: 0
   m_Name: 7_fog
   m_TagString: Untagged
@@ -1226,6 +1281,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &470456684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 470456681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab930e37b2f5d642adbd60b81ae8a17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimum: 0
+  maximum: 1
+  duration: 10
+  faded: 1
+  sprite: {fileID: 470456683}
 --- !u!1 &474337573
 GameObject:
   m_ObjectHideFlags: 0
@@ -1300,6 +1372,7 @@ GameObject:
   m_Component:
   - component: {fileID: 499564743}
   - component: {fileID: 499564744}
+  - component: {fileID: 499564745}
   m_Layer: 0
   m_Name: 7_fog
   m_TagString: Untagged
@@ -1370,6 +1443,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &499564745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499564742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab930e37b2f5d642adbd60b81ae8a17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimum: 0
+  maximum: 1
+  duration: 10
+  faded: 1
+  sprite: {fileID: 499564744}
 --- !u!1 &517874591
 GameObject:
   m_ObjectHideFlags: 0
@@ -1535,6 +1625,7 @@ GameObject:
   - component: {fileID: 546594558}
   - component: {fileID: 546594560}
   - component: {fileID: 546594559}
+  - component: {fileID: 546594561}
   m_Layer: 0
   m_Name: fog_4
   m_TagString: Untagged
@@ -1570,7 +1661,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10d3a78b6bdd8534eb068291ed2710d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
+  cam: {fileID: 1377930135}
   parallaxEffect: 0.5
 --- !u!212 &546594560
 SpriteRenderer:
@@ -1621,6 +1712,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &546594561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 546594557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab930e37b2f5d642adbd60b81ae8a17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimum: 0
+  maximum: 1
+  duration: 10
+  faded: 0
+  sprite: {fileID: 546594560}
 --- !u!1 &562474688
 GameObject:
   m_ObjectHideFlags: 0
@@ -1632,6 +1740,7 @@ GameObject:
   - component: {fileID: 562474689}
   - component: {fileID: 562474691}
   - component: {fileID: 562474690}
+  - component: {fileID: 562474692}
   m_Layer: 0
   m_Name: fog_1
   m_TagString: Untagged
@@ -1667,7 +1776,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10d3a78b6bdd8534eb068291ed2710d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
+  cam: {fileID: 1377930135}
   parallaxEffect: 0.5
 --- !u!212 &562474691
 SpriteRenderer:
@@ -1718,6 +1827,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &562474692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 562474688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab930e37b2f5d642adbd60b81ae8a17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimum: 0
+  maximum: 1
+  duration: 10
+  faded: 1
+  sprite: {fileID: 562474691}
 --- !u!1 &570908825
 GameObject:
   m_ObjectHideFlags: 0
@@ -1938,7 +2064,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10d3a78b6bdd8534eb068291ed2710d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
+  cam: {fileID: 1377930135}
   parallaxEffect: 0.5
 --- !u!212 &596827301
 SpriteRenderer:
@@ -1999,6 +2125,7 @@ GameObject:
   m_Component:
   - component: {fileID: 608092385}
   - component: {fileID: 608092386}
+  - component: {fileID: 608092387}
   m_Layer: 0
   m_Name: 7_fog
   m_TagString: Untagged
@@ -2069,6 +2196,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &608092387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608092384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab930e37b2f5d642adbd60b81ae8a17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimum: 0
+  maximum: 1
+  duration: 10
+  faded: 1
+  sprite: {fileID: 608092386}
 --- !u!1 &624591395
 GameObject:
   m_ObjectHideFlags: 0
@@ -2143,6 +2287,7 @@ GameObject:
   m_Component:
   - component: {fileID: 642946743}
   - component: {fileID: 642946744}
+  - component: {fileID: 642946745}
   m_Layer: 0
   m_Name: 7_fog
   m_TagString: Untagged
@@ -2213,6 +2358,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &642946745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 642946742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab930e37b2f5d642adbd60b81ae8a17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimum: 0
+  maximum: 1
+  duration: 10
+  faded: 1
+  sprite: {fileID: 642946744}
 --- !u!1 &647226628
 GameObject:
   m_ObjectHideFlags: 0
@@ -2383,7 +2545,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10d3a78b6bdd8534eb068291ed2710d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
+  cam: {fileID: 1377930135}
   parallaxEffect: 0.3
 --- !u!212 &766621818
 SpriteRenderer:
@@ -3609,7 +3771,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10d3a78b6bdd8534eb068291ed2710d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
+  cam: {fileID: 1377930135}
   parallaxEffect: 0.7
 --- !u!212 &1091813993
 SpriteRenderer:
@@ -3770,7 +3932,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10d3a78b6bdd8534eb068291ed2710d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
+  cam: {fileID: 1377930135}
   parallaxEffect: 0.9
 --- !u!212 &1165685912
 SpriteRenderer:
@@ -3947,7 +4109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10d3a78b6bdd8534eb068291ed2710d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
+  cam: {fileID: 1377930135}
   parallaxEffect: 2
 --- !u!212 &1195975068
 SpriteRenderer:
@@ -4610,7 +4772,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10d3a78b6bdd8534eb068291ed2710d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
+  cam: {fileID: 1377930135}
   parallaxEffect: 0
 --- !u!212 &1247405951
 SpriteRenderer:
@@ -4993,6 +5155,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1410927265}
   - component: {fileID: 1410927266}
+  - component: {fileID: 1410927267}
   m_Layer: 0
   m_Name: 7_fog
   m_TagString: Untagged
@@ -5063,6 +5226,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1410927267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410927264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab930e37b2f5d642adbd60b81ae8a17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimum: 0
+  maximum: 1
+  duration: 10
+  faded: 1
+  sprite: {fileID: 1410927266}
 --- !u!1 &1423995284
 GameObject:
   m_ObjectHideFlags: 0
@@ -5470,6 +5650,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1565651437}
   - component: {fileID: 1565651438}
+  - component: {fileID: 1565651439}
   m_Layer: 0
   m_Name: 7_fog
   m_TagString: Untagged
@@ -5540,6 +5721,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1565651439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565651436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab930e37b2f5d642adbd60b81ae8a17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimum: 0
+  maximum: 1
+  duration: 10
+  faded: 1
+  sprite: {fileID: 1565651438}
 --- !u!1 &1619844750
 GameObject:
   m_ObjectHideFlags: 0
@@ -6284,7 +6482,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10d3a78b6bdd8534eb068291ed2710d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
+  cam: {fileID: 1377930135}
   parallaxEffect: 0
 --- !u!212 &1687330389
 SpriteRenderer:
@@ -6745,6 +6943,7 @@ GameObject:
   - component: {fileID: 1707527876}
   - component: {fileID: 1707527878}
   - component: {fileID: 1707527877}
+  - component: {fileID: 1707527879}
   m_Layer: 0
   m_Name: fog_5
   m_TagString: Untagged
@@ -6780,7 +6979,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10d3a78b6bdd8534eb068291ed2710d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
+  cam: {fileID: 1377930135}
   parallaxEffect: 0.5
 --- !u!212 &1707527878
 SpriteRenderer:
@@ -6831,6 +7030,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1707527879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1707527875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab930e37b2f5d642adbd60b81ae8a17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimum: 0
+  maximum: 1
+  duration: 10
+  faded: 1
+  sprite: {fileID: 1707527878}
 --- !u!1 &1758130807
 GameObject:
   m_ObjectHideFlags: 0
@@ -6985,6 +7201,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1761112412}
   - component: {fileID: 1761112413}
+  - component: {fileID: 1761112414}
   m_Layer: 0
   m_Name: 7_fog
   m_TagString: Untagged
@@ -7055,6 +7272,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1761112414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1761112411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab930e37b2f5d642adbd60b81ae8a17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimum: 0
+  maximum: 1
+  duration: 10
+  faded: 1
+  sprite: {fileID: 1761112413}
 --- !u!1 &1764761756
 GameObject:
   m_ObjectHideFlags: 0
@@ -7672,6 +7906,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2015326607}
   - component: {fileID: 2015326608}
+  - component: {fileID: 2015326609}
   m_Layer: 0
   m_Name: 7_fog
   m_TagString: Untagged
@@ -7742,6 +7977,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2015326609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015326606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab930e37b2f5d642adbd60b81ae8a17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimum: 0
+  maximum: 1
+  duration: 10
+  faded: 1
+  sprite: {fileID: 2015326608}
 --- !u!1 &2026258283
 GameObject:
   m_ObjectHideFlags: 0
@@ -7753,6 +8005,7 @@ GameObject:
   - component: {fileID: 2026258284}
   - component: {fileID: 2026258286}
   - component: {fileID: 2026258285}
+  - component: {fileID: 2026258287}
   m_Layer: 0
   m_Name: fog_2
   m_TagString: Untagged
@@ -7788,7 +8041,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10d3a78b6bdd8534eb068291ed2710d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
+  cam: {fileID: 1377930135}
   parallaxEffect: 0.5
 --- !u!212 &2026258286
 SpriteRenderer:
@@ -7839,6 +8092,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2026258287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2026258283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab930e37b2f5d642adbd60b81ae8a17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimum: 0
+  maximum: 1
+  duration: 10
+  faded: 1
+  sprite: {fileID: 2026258286}
 --- !u!1 &2070871467
 GameObject:
   m_ObjectHideFlags: 0
@@ -8059,7 +8329,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10d3a78b6bdd8534eb068291ed2710d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
+  cam: {fileID: 1377930135}
   parallaxEffect: 1.5
 --- !u!212 &2126286837
 SpriteRenderer:

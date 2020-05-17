@@ -9,17 +9,10 @@ using Random = UnityEngine.Random;
 
 public class AudioManager : MonoBehaviour
 {
-
-
     public RandomContainer[] sounds;
-
     internal static AudioManager instance;
-
-
-
     void Awake()
     {
-
         if (instance == null)
             instance = this;
         else
