@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/CampfireScene.unity
+- path: Assets/Scenes/Milo_TestScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
