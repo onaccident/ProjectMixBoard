@@ -17,13 +17,13 @@ public class SpriteFadeIn : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.T))
+        if (Input.GetKeyDown(KeyCode.Z))
         {
             StartCoroutine(FogFader(0f, duration));
         }
 
         
-        if (Input.GetKeyDown(KeyCode.F))
+        if (Input.GetKeyDown(KeyCode.X))
         {
             StartCoroutine(FogFader(1f, duration));
         }
