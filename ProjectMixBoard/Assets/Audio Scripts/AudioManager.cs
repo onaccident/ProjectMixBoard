@@ -11,6 +11,9 @@ public class AudioManager : MonoBehaviour
 {
     public RandomContainer[] sounds;
     internal static AudioManager instance;
+    public bool gate = true;
+    public bool isPlaying;
+
     void Awake()
     {
         if (instance == null)
@@ -32,16 +35,18 @@ public class AudioManager : MonoBehaviour
     }
     public void Play(string name)
     {
-        RandomContainer soundContainer = Array.Find(sounds, sound => sound.name == name);
+      
+            RandomContainer soundContainer = Array.Find(sounds, sound => sound.name == name);
         var i = Random.Range(0, soundContainer.clip.Length);
+        if (soundContainer.source.isPlaying == true)
+        {
+            Debug.Log("container"  + soundContainer.clip[i].name + "is playing");
+            return;
+        }
         soundContainer.source.clip = soundContainer.clip[i];
         soundContainer.source.Play();
-        Debug.Log("Last sound played: " + soundContainer.clip[i].name);
-    }
-    public void Start()
-    {
-        instance.Play("Music");
-        instance.Play("Ambiance");
+            Debug.Log("Last sound played: " + soundContainer.clip[i].name);
+
     }
 
 

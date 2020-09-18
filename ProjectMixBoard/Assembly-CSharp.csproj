@@ -67,7 +67,9 @@
     <Compile Include="Assets\Audio Scripts\AudioManager.cs" />
     <Compile Include="Assets\Audio Scripts\ButtonClick.cs" />
     <Compile Include="Assets\Audio Scripts\FootStepsFire.cs" />
+    <Compile Include="Assets\Audio Scripts\SliderController.cs" />
     <Compile Include="Assets\Audio Scripts\SoundClass.cs" />
+    <Compile Include="Assets\GameScripts\BackgroundLoop.cs" />
     <Compile Include="Assets\GameScripts\LoadLevel.cs" />
     <Compile Include="Assets\GameScripts\SpriteFadeIn.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />

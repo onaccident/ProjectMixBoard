@@ -24,7 +24,7 @@ void TaskOnClick()
         
         Debug.Log("You have clicked the button!");
      
-        AudioManager.instance.Play("ChickenClucks");
+        AudioManager.instance.Play("Music");
 
     }
 }
