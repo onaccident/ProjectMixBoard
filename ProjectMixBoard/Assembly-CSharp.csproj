@@ -67,7 +67,9 @@
     <Compile Include="Assets\Audio Scripts\AudioManager.cs" />
     <Compile Include="Assets\Audio Scripts\ButtonClick.cs" />
     <Compile Include="Assets\Audio Scripts\FootStepsFire.cs" />
-    <Compile Include="Assets\Audio Scripts\SliderController.cs" />
+    <Compile Include="Assets\Audio Scripts\SliderControllerCrows.cs" />
+    <Compile Include="Assets\Audio Scripts\SliderControllerGusts.cs" />
+    <Compile Include="Assets\Audio Scripts\SliderControllerWolves.cs" />
     <Compile Include="Assets\Audio Scripts\SoundClass.cs" />
     <Compile Include="Assets\GameScripts\BackgroundLoop.cs" />
     <Compile Include="Assets\GameScripts\LoadLevel.cs" />
