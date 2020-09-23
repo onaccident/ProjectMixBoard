@@ -63,7 +63,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Art Assets\Background\Path\Parallax.cs" />
     <Compile Include="Assets\Audio Scripts\AudioManager.cs" />
     <Compile Include="Assets\Audio Scripts\ButtonClick.cs" />
     <Compile Include="Assets\Audio Scripts\FootStepsFire.cs" />
@@ -72,8 +71,12 @@
     <Compile Include="Assets\Audio Scripts\SliderControllerWolves.cs" />
     <Compile Include="Assets\Audio Scripts\SoundClass.cs" />
     <Compile Include="Assets\GameScripts\BackgroundLoop.cs" />
+    <Compile Include="Assets\GameScripts\CameraScroll.cs" />
     <Compile Include="Assets\GameScripts\LoadLevel.cs" />
+    <Compile Include="Assets\GameScripts\NewBehaviourScript.cs" />
+    <Compile Include="Assets\GameScripts\Parallax.cs" />
     <Compile Include="Assets\GameScripts\SpriteFadeIn.cs" />
+    <Compile Include="Assets\GameScripts\ToggleOnOFF.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
