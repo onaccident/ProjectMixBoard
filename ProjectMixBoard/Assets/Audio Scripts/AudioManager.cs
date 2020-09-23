@@ -35,21 +35,19 @@ public class AudioManager : MonoBehaviour
     }
     public void Play(string name)
     {
-      
-            RandomContainer soundContainer = Array.Find(sounds, sound => sound.name == name);
+        RandomContainer soundContainer = Array.Find(sounds, sound => sound.name == name);
         var i = Random.Range(0, soundContainer.clip.Length);
         if (soundContainer.source.isPlaying == true)
         {
-            Debug.Log("container"  + soundContainer.clip[i].name + "is playing");
+            Debug.Log("container" + soundContainer.clip[i].name + "is playing");
+            soundContainer.source.clip = soundContainer.clip[i];
+            soundContainer.source.PlayOneShot(soundContainer.source.clip );
             return;
         }
         soundContainer.source.clip = soundContainer.clip[i];
         soundContainer.source.Play();
-            Debug.Log("Last sound played: " + soundContainer.clip[i].name);
-
+        Debug.Log("Last sound played: " + soundContainer.clip[i].name);
     }
-
-
 }
 
 

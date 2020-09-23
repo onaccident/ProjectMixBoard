@@ -6951,7 +6951,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1258428354}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -362.57, y: -182.19, z: 0}
+  m_LocalPosition: {x: -366.59, y: -182.14, z: 0}
   m_LocalScale: {x: 0.483, y: 0.437, z: 1}
   m_Children: []
   m_Father: {fileID: 1586059988}
@@ -8729,8 +8729,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -292, y: 163.5}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -279.8, y: 151.6}
+  m_SizeDelta: {x: 162, y: 30.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1558192749
 MonoBehaviour:
@@ -9277,7 +9277,7 @@ MonoBehaviour:
   m_MinValue: 0.1
   m_MaxValue: 25
   m_WholeNumbers: 0
-  m_Value: 11.8
+  m_Value: 5.2
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -9748,8 +9748,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -359.42, y: 76}
-  m_SizeDelta: {x: 200, y: 20.5}
+  m_AnchoredPosition: {x: -386.59, y: 92}
+  m_SizeDelta: {x: 280.6, y: 28.8}
   m_Pivot: {x: 0.16287848, y: 2.640434}
 --- !u!114 &1734264048
 MonoBehaviour:
@@ -11011,7 +11011,7 @@ MonoBehaviour:
   m_MinValue: 0.1
   m_MaxValue: 25
   m_WholeNumbers: 0
-  m_Value: 5.4
+  m_Value: 10.8
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -11027,7 +11027,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23fc5fb64c0855c4a9049ca6d46d5a00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delayTime: 3
+  delayTime: 10
   cawingOccurance: {fileID: 1881166055}
   yourButton: {fileID: 1558192749}
 --- !u!1 &1883481507
@@ -12718,9 +12718,18 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: cawingOccurance
     clip:
-    - {fileID: 8300000, guid: 07729780c364b944e8caa75c42b5b70d, type: 3}
-    - {fileID: 8300000, guid: dbb4c256ecd766c43b975849a88c56f8, type: 3}
-    - {fileID: 8300000, guid: 60d744b0575c481499be11d6a1fbb4d6, type: 3}
+    - {fileID: 8300000, guid: a70b3869d26a213498c781746bb185d9, type: 3}
+    - {fileID: 8300000, guid: 5230ae673685607478f2328f6c50bc4c, type: 3}
+    - {fileID: 8300000, guid: 94968168e4ea57f4bb6c4e8ace098af7, type: 3}
+    - {fileID: 8300000, guid: 8eb3626e22417124990e21f1398a68c8, type: 3}
+    - {fileID: 8300000, guid: 5c27176564045214882e9e1b1c6fc367, type: 3}
+    - {fileID: 8300000, guid: 9c2813d625dd8c24595197ef40bb75a0, type: 3}
+    - {fileID: 8300000, guid: e0f069159c05d0e448f74212a2ea8279, type: 3}
+    - {fileID: 8300000, guid: 897dc8c7facc58046a7f54d0044ebbfa, type: 3}
+    - {fileID: 8300000, guid: 21361112633f1b34baf06aa3c94718eb, type: 3}
+    - {fileID: 8300000, guid: 59968bae5f6fc704194457ec2fe3d9d4, type: 3}
+    - {fileID: 8300000, guid: da8e2b6954ecd644b8bf0e0ca3531600, type: 3}
+    - {fileID: 8300000, guid: ef19a8dea610f62498dcbd11164305a4, type: 3}
     volume: 1
     pitch: 1
     playOnAwake: 1
@@ -12730,9 +12739,13 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: howlOccurance
     clip:
-    - {fileID: 8300000, guid: 73e0a67ee84caf14197bf3e3cba8b841, type: 3}
-    - {fileID: 8300000, guid: 27bf5448979d01f4793080f8d22e2eb5, type: 3}
-    - {fileID: 8300000, guid: 78fe572dac2120c40a6aed0edd504f57, type: 3}
+    - {fileID: 8300000, guid: 7759cd7fdfbed76478d5006e3fc2a851, type: 3}
+    - {fileID: 8300000, guid: 3a60e79496da33747a8ddfa959150f57, type: 3}
+    - {fileID: 8300000, guid: 10acca29b96eb0147b893361a38f50d5, type: 3}
+    - {fileID: 8300000, guid: 622b6028ec8061848b83caf35180a7b6, type: 3}
+    - {fileID: 8300000, guid: 45d83d0cc83eac5499caf417a8343e75, type: 3}
+    - {fileID: 8300000, guid: d95364d9ae66971469e6e47684922dbd, type: 3}
+    - {fileID: 8300000, guid: 0afdb0868bd4f0b4aa193c026f9b339a, type: 3}
     volume: 1
     pitch: 1
     playOnAwake: 1
