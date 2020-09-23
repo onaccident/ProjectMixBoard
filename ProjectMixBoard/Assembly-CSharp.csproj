@@ -63,6 +63,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Art Assets\AnimationScripts\CharacterAnimation.cs" />
+    <Compile Include="Assets\Art Assets\AnimationScripts\MouseCursor.cs" />
     <Compile Include="Assets\Audio Scripts\AudioManager.cs" />
     <Compile Include="Assets\Audio Scripts\ButtonClick.cs" />
     <Compile Include="Assets\Audio Scripts\FootStepsFire.cs" />
@@ -70,6 +72,7 @@
     <Compile Include="Assets\Audio Scripts\SliderControllerGusts.cs" />
     <Compile Include="Assets\Audio Scripts\SliderControllerWolves.cs" />
     <Compile Include="Assets\Audio Scripts\SoundClass.cs" />
+    <Compile Include="Assets\CharWalk.cs" />
     <Compile Include="Assets\GameScripts\BackgroundLoop.cs" />
     <Compile Include="Assets\GameScripts\CameraScroll.cs" />
     <Compile Include="Assets\GameScripts\LoadLevel.cs" />
