@@ -37,7 +37,7 @@ public class AudioManager : MonoBehaviour
     {
         RandomContainer soundContainer = Array.Find(sounds, sound => sound.name == name);
         var i = Random.Range(0, soundContainer.clip.Length);
-        if (soundContainer.source.isPlaying == true)
+        if (soundContainer.source.isPlaying == true && gate == true)
         {
             Debug.Log("container" + soundContainer.clip[i].name + "is playing");
             soundContainer.source.clip = soundContainer.clip[i];

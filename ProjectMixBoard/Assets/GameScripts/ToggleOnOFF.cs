@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ToggleOnOFF : MonoBehaviour
 {
-    public GameObject walkRosa, walkTuck, walkGorn, walkSylric, sittingBodies, sittingHead;
+    public GameObject walkRosa, walkTuck, walkGorn, walkSylric, sittingBodies, sittingHead, wolf, forground;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +14,8 @@ public class ToggleOnOFF : MonoBehaviour
         walkTuck.SetActive(false);
         sittingBodies.SetActive(true);
         sittingHead.SetActive(true);
+        wolf.SetActive(false);
+        forground.SetActive(true);
     }
 
     // Update is called once per frame
@@ -36,6 +38,11 @@ public class ToggleOnOFF : MonoBehaviour
             walkSylric.SetActive(false);
             sittingBodies.SetActive(true);
             sittingHead.SetActive(false);
+        }
+        if (Input.GetKey(KeyCode.T))
+        {
+            wolf.SetActive(true);
+            forground.SetActive(false);
         }
     }
 }
