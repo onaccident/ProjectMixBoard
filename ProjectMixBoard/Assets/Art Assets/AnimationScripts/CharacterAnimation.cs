@@ -11,7 +11,7 @@ public class CharacterAnimation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.D)^(Input.GetKey(KeyCode.A)))
         {
             anim.SetBool("isIdle", false);
         }
