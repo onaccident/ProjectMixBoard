@@ -22,8 +22,6 @@ public class SliderControllerWolves : MonoBehaviour
 
     void TaskOnClick()
     {
-
-        Debug.Log("You have started the scene!");
         OnSliderWasChanged();
         Invoke("PlayBack", delayTime);
 

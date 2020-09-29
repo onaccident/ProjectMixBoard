@@ -12,8 +12,6 @@ public class SpawnFire : MonoBehaviour
 {
    
     public AudioSource aSource;
-    public GameObject Sylric;
-    public GameObject Fire;
     public Transform target;
     public Transform Sylrictarget;
     private float distanceBetween;
@@ -35,19 +33,15 @@ public class SpawnFire : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //float dist = UnityEngine.Vector3.Distance(other.transform.position, transform.position);
-        //AudioLowPassFilter.cutoffFrequency = -dist*1000;
         distanceBetween = UnityEngine.Vector3.Distance(target.transform.position, Sylrictarget.transform.position)/10;
-        //AudioLowPassFilter.cutoffFrequency = Mathf.Lerp(minPass, maxPass, distanceBetween);
+       
         AudioLowPassFilter.cutoffFrequency = Mathf.Lerp(maxPass, minPass, distanceBetween);
         
-        Debug.Log("canary " + AudioLowPassFilter.cutoffFrequency);
 
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         aSource.Play();
-        Debug.Log("FIIIIIREEE");
     }
 }

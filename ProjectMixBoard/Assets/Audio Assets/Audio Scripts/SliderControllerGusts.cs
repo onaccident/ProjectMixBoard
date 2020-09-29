@@ -22,8 +22,6 @@ public class SliderControllerGusts : MonoBehaviour
 
     void TaskOnClick()
     {
-
-        Debug.Log("You have started the scene!");
         OnSliderWasChanged();
         Invoke("PlayBack", delayTime);
 
@@ -35,7 +33,7 @@ public class SliderControllerGusts : MonoBehaviour
     }*/
     private void PlayBack()
     {
-        AudioManager.instance.Play("gustOccurance"); //It fires a sound from the core audio manager
+        AudioManager.instance.Play("moaningVoices"); //It fires a sound from the core audio manager
         OnSliderWasChanged();
         StartCoroutine(AmbiantController());
     }

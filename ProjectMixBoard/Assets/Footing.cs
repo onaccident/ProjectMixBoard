@@ -7,6 +7,7 @@ public class Footing : MonoBehaviour
     public List<GroundType> GroundTypes = new List<GroundType>();
     public GameObject Sprite;
     public string currentground;
+    public BoxCollider2D mudPuddle;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,7 +31,6 @@ public class Footing : MonoBehaviour
         if (currentground != ground.name)
         {
             currentground = ground.name;
-
         }
     } 
     [System.Serializable]
@@ -38,11 +38,12 @@ public class Footing : MonoBehaviour
     {
         public string name;
     }
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D mudPuddle)
     {
+        
         currentground = "mudFloor";
     }
-    private void OnTriggerExit2D(Collider2D collision)
+    private void OnTriggerExit2D(Collider2D mudPuddle)
     {
         currentground = "dirtFloor";
     }

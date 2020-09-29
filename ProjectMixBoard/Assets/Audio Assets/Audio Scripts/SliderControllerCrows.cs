@@ -22,8 +22,6 @@ public class SliderControllerCrows : MonoBehaviour
 
     void TaskOnClick()
     {
-
-        Debug.Log("You have started the scene!");
         AudioManager.instance.Play("gustOccurance");
         AudioManager.instance.Play("Music");
         OnSliderWasChanged();
