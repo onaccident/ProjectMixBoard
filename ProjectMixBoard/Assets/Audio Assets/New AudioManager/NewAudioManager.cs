@@ -32,7 +32,8 @@ public class NewAudioManager : MonoBehaviour
         //"prehooked" sounds that is unnecessary
         //SetUpAudioSources("FlowerMoan");
         
-         SetUpAudioSources("FlowerMoan");
+         SetUpAudioSources("RedSquare");
+         SetUpAudioSources("PurpleSquare");
 
         //play
 
@@ -92,6 +93,7 @@ public class NewAudioManager : MonoBehaviour
                 sources.outputAudioMixerGroup = preset.group;
                 sources.playOnAwake = preset.playOnAwake;
                 sources.loop = preset.loop;
+                Debug.Log("Last sound played: " + soundContainers[i].soundclips[z].name); //and will now specify it in the console cause thats dope
             }
         }
     }
