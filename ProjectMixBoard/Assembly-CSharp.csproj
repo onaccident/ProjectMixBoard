@@ -78,6 +78,8 @@
     <Compile Include="Assets\Audio Assets\GameScripts\Parallax.cs" />
     <Compile Include="Assets\Audio Assets\GameScripts\SpriteFadeIn.cs" />
     <Compile Include="Assets\Audio Assets\GameScripts\ToggleOnOFF.cs" />
+    <Compile Include="Assets\Audio Assets\New AudioManager\NewAudioManager.cs" />
+    <Compile Include="Assets\Audio Assets\New AudioManager\NewSoundContainer.cs" />
     <Compile Include="Assets\CharWalk.cs" />
     <Compile Include="Assets\Footing.cs" />
     <Compile Include="Assets\LerpFire.cs" />

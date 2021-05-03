@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4845419614492356776
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4845419614492356822}
+  - component: {fileID: 4845419614492356777}
+  m_Layer: 0
+  m_Name: AudioManagerHost
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4845419614492356822
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4845419614492356776}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.34446, y: -3.4405944, z: -1.8576951}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4845419614492356777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4845419614492356776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3f27efed2f7e8947b6e6c236417023c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundContainers:
+  - name: RedSquare
+    volume: 1
+    pitch: 1
+    playOnAwake: 1
+    loop: 1
+    group: {fileID: 24300002, guid: f42aa0db24de6fa40b7b9aedd23abf59, type: 2}
+    sources:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    soundclips:
+    - {fileID: 8300000, guid: a70b3869d26a213498c781746bb185d9, type: 3}
+    - {fileID: 8300000, guid: 5230ae673685607478f2328f6c50bc4c, type: 3}
+    - {fileID: 8300000, guid: 94968168e4ea57f4bb6c4e8ace098af7, type: 3}
+  - name: PurpleSquare
+    volume: 1
+    pitch: 1
+    playOnAwake: 0
+    loop: 0
+    group: {fileID: 0}
+    sources:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    soundclips:
+    - {fileID: 8300000, guid: 8eb3626e22417124990e21f1398a68c8, type: 3}
+    - {fileID: 8300000, guid: cb91e21ea621aaf448d1eda496cb818c, type: 3}
+    - {fileID: 8300000, guid: 59968bae5f6fc704194457ec2fe3d9d4, type: 3}
+  Poi: {fileID: 0}
+  player: {fileID: 0}
+  nonPOI: {fileID: 0}
+  poiGaze: {fileID: 0}
