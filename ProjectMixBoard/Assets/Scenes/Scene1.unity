@@ -1052,8 +1052,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -359.42, y: 120}
-  m_SizeDelta: {x: 200, y: 20.5}
+  m_AnchoredPosition: {x: -448.99976, y: 192}
+  m_SizeDelta: {x: 135.1, y: 20.5}
   m_Pivot: {x: 0.16287848, y: 2.640434}
 --- !u!114 &222542685
 MonoBehaviour:
@@ -2181,7 +2181,7 @@ Transform:
   - {fileID: 2041695187}
   - {fileID: 1963241994}
   m_Father: {fileID: 1271888578}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &301282490
 MonoBehaviour:
@@ -2964,7 +2964,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -309.58, y: 65}
+  m_AnchoredPosition: {x: -415, y: 138}
   m_SizeDelta: {x: 95.49, y: 16.05}
   m_Pivot: {x: 0.3193989, y: 1}
 --- !u!114 &456834185
@@ -3347,7 +3347,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -279.8, y: -80.1}
+  m_AnchoredPosition: {x: -390, y: 15.150002}
   m_SizeDelta: {x: 162, y: 30.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &490545678
@@ -3686,6 +3686,7 @@ Transform:
   m_Children:
   - {fileID: 1271888578}
   - {fileID: 2086759503}
+  - {fileID: 1258428355}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3902,7 +3903,7 @@ GameObject:
   - component: {fileID: 603946965}
   - component: {fileID: 603946964}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Scroll Bars
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4185,7 +4186,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -279.8, y: -24.8}
+  m_AnchoredPosition: {x: -390, y: 56}
   m_SizeDelta: {x: 162, y: 30.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &627028085
@@ -8342,10 +8343,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1258428354}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.976, y: -2.746, z: 8.579571}
-  m_LocalScale: {x: 0.40082002, y: 0.35834, z: 1}
+  m_LocalPosition: {x: -6.95, y: -0.64, z: 10}
+  m_LocalScale: {x: 0.40638384, y: 0.48326308, z: 1.1655595}
   m_Children: []
-  m_Father: {fileID: 1271888578}
+  m_Father: {fileID: 519420032}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1258428357
@@ -8432,7 +8433,6 @@ Transform:
   m_Children:
   - {fileID: 1304588959}
   - {fileID: 1681510848}
-  - {fileID: 1258428355}
   - {fileID: 301282489}
   m_Father: {fileID: 519420032}
   m_RootOrder: 0
@@ -9065,8 +9065,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -359.42, y: 160.8}
-  m_SizeDelta: {x: 200, y: 20.5}
+  m_AnchoredPosition: {x: -449, y: 238}
+  m_SizeDelta: {x: 135.09, y: 20.5}
   m_Pivot: {x: 0.16287848, y: 2.640434}
 --- !u!114 &1358668394
 MonoBehaviour:
@@ -9825,7 +9825,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -279.8, y: 151.6}
+  m_AnchoredPosition: {x: -376, y: 238}
   m_SizeDelta: {x: 162, y: 30.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1558192749
@@ -10030,6 +10030,24 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1569204313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569204305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0669302fa5637045badbb1b00aaab5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GroundTypes:
+  - name: dirtFloor
+  - name: mudFloor
+  Sprite: {fileID: 1569204305}
+  currentground: 
+  mudPuddle: {fileID: 285032608}
 --- !u!1 &1578170179
 GameObject:
   m_ObjectHideFlags: 0
@@ -10490,7 +10508,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -309.58, y: 23}
+  m_AnchoredPosition: {x: -415, y: 96}
   m_SizeDelta: {x: 95.49, y: 16.05}
   m_Pivot: {x: 0.3193989, y: 1}
 --- !u!114 &1660942815
@@ -10704,6 +10722,36 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 1424129280016669781, guid: d9ee3b13ddd953844ab8472957188119,
     type: 3}
+--- !u!1 &1677379168
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1677379169}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1677379169
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1677379168}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2113678715686834286}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1681510847
 GameObject:
   m_ObjectHideFlags: 0
@@ -10937,8 +10985,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GroundTypes:
-  - name: mudFloor
   - name: dirtFloor
+  - name: mudFloor
   Sprite: {fileID: 1686103420}
   currentground: 
   mudPuddle: {fileID: 285032608}
@@ -11198,8 +11246,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -386.59, y: 92}
-  m_SizeDelta: {x: 280.6, y: 28.8}
+  m_AnchoredPosition: {x: -449, y: 166}
+  m_SizeDelta: {x: 135.1, y: 28.8}
   m_Pivot: {x: 0.16287848, y: 2.640434}
 --- !u!114 &1734264048
 MonoBehaviour:
@@ -11307,8 +11355,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 216, y: -66}
-  m_SizeDelta: {x: 200, y: 30}
+  m_AnchoredPosition: {x: -460.9, y: 8}
+  m_SizeDelta: {x: 62, y: 30}
   m_Pivot: {x: 0.16287848, y: 2.640434}
 --- !u!114 &1742858065
 MonoBehaviour:
@@ -12548,7 +12596,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -309.58, y: 108.05}
+  m_AnchoredPosition: {x: -415, y: 181.05}
   m_SizeDelta: {x: 95.49, y: 16.05}
   m_Pivot: {x: 0.3193989, y: 1}
 --- !u!114 &1881166055
@@ -15414,13 +15462,11 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: howlOccurance
     clip:
-    - {fileID: 8300000, guid: 7759cd7fdfbed76478d5006e3fc2a851, type: 3}
-    - {fileID: 8300000, guid: 3a60e79496da33747a8ddfa959150f57, type: 3}
-    - {fileID: 8300000, guid: 10acca29b96eb0147b893361a38f50d5, type: 3}
+    - {fileID: 8300000, guid: 0afdb0868bd4f0b4aa193c026f9b339a, type: 3}
+    - {fileID: 8300000, guid: 45d83d0cc83eac5499caf417a8343e75, type: 3}
     - {fileID: 8300000, guid: 622b6028ec8061848b83caf35180a7b6, type: 3}
     - {fileID: 8300000, guid: 45d83d0cc83eac5499caf417a8343e75, type: 3}
     - {fileID: 8300000, guid: d95364d9ae66971469e6e47684922dbd, type: 3}
-    - {fileID: 8300000, guid: 0afdb0868bd4f0b4aa193c026f9b339a, type: 3}
     volume: 1
     pitch: 1
     playOnAwake: 1
@@ -15473,8 +15519,8 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 2fc189fbfa191ba43861419d108311f4, type: 3}
     - {fileID: 8300000, guid: 5aef3f9316c71ed4caa1737a4a205e4e, type: 3}
     - {fileID: 8300000, guid: 36355b8218b6c2346aecda95b92ce055, type: 3}
-    - {fileID: 8300000, guid: 750a228ce0dab064a9acd989b0a515a6, type: 3}
-    - {fileID: 8300000, guid: bb3578a4de9cabb46bee91a3cf783888, type: 3}
+    - {fileID: 8300000, guid: 7759cd7fdfbed76478d5006e3fc2a851, type: 3}
+    - {fileID: 8300000, guid: 3a60e79496da33747a8ddfa959150f57, type: 3}
     volume: 1
     pitch: 1
     playOnAwake: 0
